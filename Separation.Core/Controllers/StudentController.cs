@@ -35,12 +35,12 @@ namespace Separation.Core.Controllers
             }
             if (args.Any(StartsWith("--get")))
             {
-                //Mock GET Student Endpoint
+                //Mock GET Student request
                 GetStudent();
             }
             if (args.Any(StartsWith("--create")))
             {
-                //Mock PUT Student Endpoint
+                //Mock POST Student request
                 CreateStudent();
             }
         }
