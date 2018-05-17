@@ -19,7 +19,7 @@ namespace Separation.Core.Controllers
             "\n" +
             "\t Options:\n" +
             "\t --get ...................... Run a mock GET Student Request\n" +
-            "\t --create ................... Run a mock PUT Student Request\n" +
+            "\t --create ................... Run a mock POST Student Request\n" +
             "\t -h --help .................. Show this screen";
 
         private static void Main(string[] args)
