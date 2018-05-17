@@ -5,7 +5,7 @@ using Separation.Data.Repositories;
 
 namespace Separation.Core.Adapters
 {
-    public class StudentAdapter : IStudentAdapter
+    public class StudentAdapter : IStudentGet, IStudentCreate
     {
         private readonly StudentRepository _studentRepository;
 

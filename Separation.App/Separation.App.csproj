@@ -49,6 +49,8 @@
     <Compile Include="Interactor\StudentCreateInteractor.cs" />
     <Compile Include="Interactor\StudentGetInteractor.cs" />
     <Compile Include="Interfaces\IStudentAdapter.cs" />
+    <Compile Include="Interfaces\IStudentCreate.cs" />
+    <Compile Include="Interfaces\IStudentGet.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -5,9 +5,9 @@ namespace Separation.App.Interactor
 {
     public class StudentCreateInteractor
     {
-        private readonly IStudentAdapter _studentAdapter;
+        private readonly IStudentCreate _studentAdapter;
 
-        public StudentCreateInteractor(IStudentAdapter studentAdapter)
+        public StudentCreateInteractor(IStudentCreate studentAdapter)
         {
             _studentAdapter = studentAdapter;
         }
